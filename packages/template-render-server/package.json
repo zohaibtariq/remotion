@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "My Remotion video",
   "scripts": {
-    "build": "remotion bundle",
-    "dev": "tsx watch server",
-    "start": "tsx server",
+    "build": "node init && remotion bundle",
+    "dev": "node init && tsx watch server",
+    "start": "node init && tsx server",
     "lint": "eslint . && tsc",
     "remotion:upgrade": "remotion upgrade",
     "remotion:studio": "remotion studio"

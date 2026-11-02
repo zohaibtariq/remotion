@@ -2,8 +2,8 @@
   "name": "template-stargazer",
   "version": "1.0.0",
   "scripts": {
-    "dev": "remotion studio",
-    "build": "remotion bundle",
+    "dev": "node init && remotion studio",
+    "build": "node init && remotion bundle",
     "lint": "eslint src && tsc"
   },
   "license": "UNLICENSED",

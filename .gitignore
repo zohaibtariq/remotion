@@ -9,8 +9,6 @@ coverage
 */**/.env
 .cache
 packages/example/out
-.env
-.vscode/taskmarks.json
 .turbo
 .vercel
 packages/compositor/target
@@ -53,3 +51,4 @@ packages/example-videos/videos/iphonevideo.mov
 packages/example-videos/videos/music.mp3
 packages/example-videos/videos/iphone-hevc.mov
 packages/example-videos/videos/stretched-vp8.webm
+config.bat

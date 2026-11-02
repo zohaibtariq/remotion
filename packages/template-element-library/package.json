@@ -6,8 +6,8 @@
     "*.css"
   ],
   "scripts": {
-    "dev": "react-router dev",
-    "build": "react-router build",
+    "dev": "node init && react-router dev",
+    "build": "node init && react-router build",
     "preview": "sirv build/client --single __spa-fallback.html",
     "typecheck": "react-router typegen && tsc",
     "lint": "eslint . && react-router typegen && tsc",

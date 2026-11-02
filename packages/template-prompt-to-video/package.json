@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "Create AI videos using remotion",
   "scripts": {
-    "dev": "remotion studio",
-    "build": "remotion bundle",
+    "dev": "node init && remotion studio",
+    "build": "node init && remotion bundle",
     "upgrade": "remotion upgrade",
     "lint": "eslint src && tsc",
     "gen": "bun cli/cli.ts"

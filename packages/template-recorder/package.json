@@ -7,9 +7,9 @@
   "version": "4.0.277",
   "type": "module",
   "scripts": {
-    "build": "tsc && vite build",
+    "build": "node init && tsc && vite build",
     "lint": "eslint src && tsc",
-    "dev": "bun studio.ts",
+    "dev": "node init && bun studio.ts",
     "upgrade": "remotion upgrade",
     "test": "bun test tests"
   },
